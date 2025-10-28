@@ -26,3 +26,10 @@ This project was created as a learning experience to explore **layout techniques
 
 ## Author
 **Fabio Henrique** – UX Designer & Front-End Enthusiast
+
+## Credits / Image Sources
+
+Special thanks to **KIMJAEWOO FIREBRUSH** for the amazing artwork used in this project.  
+You can check out more of their work on [ArtStation](https://www.artstation.com/firebrush).
+
+> Note: All images used in this project are for **educational and portfolio purposes only**.

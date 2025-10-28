@@ -1,0 +1,205 @@
+.btn-custom {
+  border-radius: 10px;
+  padding: 8px 20px;
+  background: #fff64b;
+  border: 2px solid #fff64b;
+  color: #000;
+  font-weight: 400;
+  transition: background-color 0.3s ease, color 0.3s ease, transform 0.2s ease;
+}
+
+.btn-custom:hover {
+  background-color: #fff04b; /* tom levemente diferente no hover */
+  transform: translateY(-1px); /* efeito sutil de elevação */
+}
+
+.btn-custom-outline {
+  border-radius: 10px;
+  padding: 8px 20px;
+  background: transparent;
+  border: 2px solid #919191;
+  color: #919191;
+  font-weight: 400;
+  transition: background-color 0.3s ease, color 0.3s ease, transform 0.2s ease;
+}
+
+.btn-custom-outline:hover {
+  background-color: transparent(255, 246, 75, 0.15); /* leve destaque no fundo */
+  color: #919191;
+  transform: translateY(-1px);
+}
+
+.section-spacing {
+  padding-bottom: 140px;    
+}
+
+.jumbotron {
+    background-color:transparent; /* cor clara para visualizar o espaço */
+    text-align: center;
+}
+
+.jumbotron-shadow {
+    background-color:#919191; /* cor clara para visualizar o espaço */
+    text-align: center;
+}
+
+.hero-section{
+  font-size: 80px; /* ou 4rem */
+  font-weight: 600;
+  text-align: center;
+  color: #212529;
+}
+
+.solid-text {
+  font-size: 80px;
+  color: #000000; /* texto preto sólido */
+  margin: 0;
+}
+
+
+.outlined-text {
+  font-size: 80px;
+  color: white; /* "preenche" o texto com branco */
+  -webkit-text-stroke: 1.5px rgb(0, 0, 0); /* contorno preto */
+  margin: 0;
+}
+
+.solid-text-h2 {
+  font-size: 50px;
+  color: #000000; /* texto preto sólido */
+  margin: 0;
+}
+
+.outlined-text-h2 {
+  font-size: 50px;
+  color: white; /* "preenche" o texto com branco */
+  -webkit-text-stroke: 1.5px rgb(0, 0, 0); /* contorno preto */
+  margin: 0;
+}
+
+.solid-text-h3 {
+  font-size: 30px;
+  color: #000000; /* texto preto sólido */
+  margin: 0;
+}
+
+.text-content {
+  padding-left: 30px; /* espaço respirável à esquerda do texto */
+}
+
+.section-1{
+  font-size: 50px; /* ajusta o tamanho da fonte */
+  font-weight: 600;
+  color: #212529;
+}
+
+.section-p{
+  font-size: 20px; /* ajusta o tamanho da fonte */
+  color: #212529;
+}
+
+.banner-image {
+  max-width: 400px; /* tamanho da imagem */
+  height: auto;
+  transition: transform 0.3s ease;
+}
+
+.banner-image:hover {
+  transform: scale(1.05); /* animação suave ao passar o mouse */
+}
+
+.site-name {
+  font-weight: 800; /* negrito */
+  font-size: 40px;  /* ajuste a medida que quiser */
+}
+  
+.icon-small {
+  width: 1em;       /* tamanho proporcional ao h3 */
+  height: auto;     /* mantém proporção */
+  vertical-align: middle;
+  margin-right: 0.3em; /* espaço entre ícone e texto */
+}
+
+.highlight-text {
+  background-color: #fff64b;  /* cor do grifo */
+  border-radius: 10px;         /* cantos arredondados, opcional */
+  padding: 0 4px;             /* espaço interno para o grifo "respirar" */
+}
+
+.custom-card {
+  background-color: #fff64b;
+  border: none;
+  border-radius: 12px;
+  padding: 20px;
+  color: #000;
+  transition: transform 0.2s ease-in-out;
+}
+
+.custom-card-2 {
+  background-color: #ebebeb;
+  border: none;
+  border-radius: 12px;
+  padding: 20px;
+  color: #000;
+  transition: transform 0.2s ease-in-out;
+  height: 250px;
+}
+
+.custom-card:hover {
+  transform: translateY(-5px);
+}
+
+.custom-card-2:hover {
+  transform: translateY(-5px);
+}
+
+.footer-section {
+  background-color: #ebebeb;
+  color: #333;
+  font-size: 0.95rem;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.footer-links li {
+  margin-bottom: 8px;
+}
+
+.footer-links a {
+  color: #333;
+  text-decoration: none;
+}
+
+.footer-links a:hover {
+  text-decoration: underline;
+}
+
+.lgpd-message {
+  font-size: 0.85rem;
+  color: #555;
+}
+
+.custom-jumbotron {
+  background-color: #ebebeb; /* Cinza claro */
+  padding: 4rem 2rem;
+  border-radius: 0.5rem;
+  transition: transform 0.2s ease-in-out;
+}
+
+.custom-jumbotron:hover{
+  transform: translateY(-5px);
+}
+
+textarea {
+  resize: none;
+  height: 200px; /* define uma altura fixa */
+  overflow-y: auto; /* adiciona scroll se o texto for maior */
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+h1, h2, h3 {
+    font-family: 'Montserrat', sans-serif;
+}
